@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+button{ 
+    color: white;
+    background-color:  transparent;
+    font-family: 'Unica One', cursive;
+	font-size: 18px;
+    margin: 2px auto;
+	padding: 1	px 2px;
+    cursor: pointer;
+	border: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    width: 36%;
+    height: 6%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    bottom: -222px;
+
+}
+#exitbank{
+	 color: white;
+    background-color:  transparent;
+    font-family: 'Unica One', cursive;
+	font-size: 18px;
+    margin: 2px auto;
+	padding: 1	px 2px;
+    cursor: pointer;
+	border: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    width: 36%;
+    height: 6%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    bottom: -265px;
+}
+
+h3{
+	position: absolute;
+	left: 25%;
+	bottom: 75%;
+}
+
+h4{
+	position: absolute;
+	left: 55%;
+	bottom: 75%;
+}
+
+#balanceX{
+	position: absolute;
+	margin: 10px auto;
+	left: 37%;
+	top: 25%;
+	
+	font-size:46px;
+}
+
+
+#cancelbalance{
+	 position: relative;
+    left: 47%;
+    bottom: -220px;
+}
+
+.general{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 690px 520px;
+	width: 690px;
+	height: 520px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.depositUI{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 690px 520px;
+	width: 690px;
+	height: 520px;
+	position: absolute;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+.withdrawUI{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 690px 520px;
+	width: 690px;
+	height: 520px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.balanceUI{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 690px 520px;
+	width: 690px;
+	height: 520px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+.transferUI{
+    background-image: url('img/phone.png');
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 690px 520px;
+	width: 690px;
+	height: 520px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+    padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	margin-top: -250px;
+	margin-left: -400px;
+	padding-bottom: 20px;
+}
+
+#from, #to, #amountt {
+	position: relative;
+    top: 50px;
+    left: 180px;
+    
+	font-family: 'Unica One';
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+ 
+}
+
+
+h1{
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 48%;
+	top: 39%;
+}
+.b{
+	
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 30%;
+	top: 30%;
+}
+
+
+
+#backbalnace {
+	position:relative;
+	top: 60%;
+	left: 30%;
+}
+
+
+
+
+input[type=text] {
+	position: relative;
+    top: 50px;
+    left: 180px;
+    
+	font-family: 'Unica One';
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 40px 0;
+    box-sizing: border-box;
+ 
+	
+}
+
+
+button:hover{
+    background-color: grey;
+	 opacity: 0.1;
+}
+
+
