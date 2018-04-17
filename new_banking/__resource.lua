@@ -1,4 +1,11 @@
-client_script('client/client.lua') --your NUI Lua File
+resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
+dependencies {'mysql-async','paradise','paradise-playerlist','es_extended'}
+client_scripts {
+    '@paradise/common.lua',
+    '@paradise/client.lua',
+    '@paradise-playerlist/check.lua',
+    'client/client.lua', --your NUI Lua File
+}
 server_script "@mysql-async/lib/MySQL.lua"
 server_script 'server.lua'
 ui_page('client/html/UI.html') --THIS IS IMPORTENT

@@ -177,8 +177,8 @@ end)
 --===============================================
 RegisterNetEvent('currentbalance1')
 AddEventHandler('currentbalance1', function(balance)
-	local id = PlayerId()
-	local playerName = GetPlayerName(id)
+	local id = GetPlayerServerId(PlayerId())
+	local playerName = getParadiseName(id)
 	
 	SendNUIMessage({
 		type = "balanceHUD",
